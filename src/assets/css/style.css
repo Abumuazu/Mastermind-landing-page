@@ -7,8 +7,10 @@
   margin-bottom: 9px; 
   border-radius: 43px;
 }
-
-
+#try-app:hover{
+  text-decoration: none;
+  color: white !important;
+}
 .key-notes-container{
   display: flex;
   width: 100%;
@@ -419,7 +421,6 @@ front
     display: inline;
   }
 
- 
 
   .key-notes-container{
     flex-direction: column;

@@ -30,7 +30,7 @@ const Navbar = () => {
                                 <li className="nav-item" data-bs-dismiss="offcanvas" aria-label="Close"><a className="nav-link" href="#contact">Contact</a></li>
                             </ul>
                             <ul className="menu-btns">
-                                    <li><a id="try-app"  className="btn btn-rg btn-auto btn-outline on-bg-theme btn-round"><span className="nav-link">Use Swap</span></a></li>
+                                    <a  id="try-app" href="http://presale.mastermindtoken.com" className="btn btn-rg btn-auto btn-outline on-bg-theme btn-round"><span className="nav-link">Presale Page</span></a>
                                 </ul>
                         </div>
                     </div>
