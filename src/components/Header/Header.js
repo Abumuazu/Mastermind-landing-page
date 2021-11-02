@@ -35,7 +35,7 @@ const Header = () => {
                                             <div className="front-btns">
 
 
-                                                <a href="#" className="whitepaper-btn linkDecor"><span>Whitepaper</span></a>
+                                                <a href="https://drive.google.com/file/d/1UQCrEtfl5ej-Hw7HK9vQ3t7pbtAHzxQD/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="whitepaper-btn linkDecor"><span>Whitepaper</span></a>
                                                 <Link to="ambassador" className="wp-land-link linkDecor"><span>Refer &amp; Earn Program</span></Link>
                                             </div>
                                             <div className="video-link">

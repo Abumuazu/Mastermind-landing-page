@@ -64,6 +64,25 @@ const Section3 = () => {
                             <div className="single-chart">
                                 <div className="chart tri-chart">
                                     <img src={chart} alt="Distribution Chart" />
+                                    <div className="totalSupply">
+                                        <p>
+                                            <span style={{ color: "#EEB81C", marginRight: "6px" }} class="material-icons-outlined">
+                                                account_balance_wallet
+                                            </span>
+                                            <span style={{ color: "#EEB81C" }}>
+                                                Total Supply
+                                            </span>
+                                        </p>
+                                         <p>
+                                            <span style={{ color: "green", marginRight: "6px" }} class="material-icons-outlined">
+                                                monetization_on
+                                            </span>
+                                            <span style={{ color: "green" }}>
+                                                10 000 000 $MMD
+                                            </span>
+                                         </p>
+                                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
