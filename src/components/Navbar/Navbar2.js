@@ -5,7 +5,7 @@ const Navbar2 = () => {
         <div className="header-main" style={{background: "black"}}>
                 <nav className="navbar navbar-expand-lg container">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#"> <img width="192" src={mmdLogo} alt="mmd-logo" /></a>
+                    <a className="navbar-brand" href="https://mastermindtoken.com/"> <img width="192" src={mmdLogo} alt="mmd-logo" /></a>
                     <button style={{ border: "none" }} className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <div className="toggle-line">
                                     <span></span>
@@ -30,7 +30,8 @@ const Navbar2 = () => {
                                 <li className="nav-item" data-bs-dismiss="offcanvas" aria-label="Close"><a className="nav-link" href="/#contact">Contact</a></li>
                             </ul>
                             <ul className="menu-btns">
-                                    <li><a id="try-app"  className="btn btn-rg btn-auto btn-outline on-bg-theme btn-round"><span className="nav-link">Use Swap</span></a></li>
+                                    <li>                                    <a  id="try-app" href="http://presale.mastermindtoken.com" className="btn btn-rg btn-auto btn-outline on-bg-theme btn-round"><span className="nav-link">Presale Page</span></a>
+                                    </li>
                                 </ul>
                         </div>
                     </div>

@@ -5,7 +5,7 @@ const Navbar = () => {
         <div className="header-main" style={{background: "black"}}>
                 <nav className="navbar navbar-expand-lg container">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#"> <img width="192" src={mmdLogo} alt="mmd-logo" /></a>
+                    <a className="navbar-brand" href="https://mastermindtoken.com/"> <img width="192" src={mmdLogo} alt="mmd-logo" /></a>
                     <button style={{ border: "none" }} className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <div className="toggle-line">
                                     <span></span>
