@@ -1,100 +1,114 @@
-const particleJsConfig ={
-  fullScreen: {
-    enable: true,
-    zIndex: 1
-  },
-  interactivity: {
-    events: {
-      onClick: {
-        mode: "repulse"
-      },
-      onHover: {
-        mode: "grab"
+import { blue } from "@mui/material/colors";
+
+ export const particleJsConfig ={
+  "particles": {
+    "number": {
+      "value": 50,
+      "density": {
+        "enable": true,
+        "value_area": 700
       }
     },
-    modes: {
-      bubble: {
-        distance: 400,
-        duration: 2,
-        opacity: 8,
-        size: 40
+    "color": {
+      "value": "#43E8E1"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
       },
-      grab: {
-        distance: 200
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#3671E9",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 1.5,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
       }
     }
   },
-  particles: {
-    color: {
-      value: [
-        "#5bc0eb",
-        "#fde74c",
-        "#9bc53d",
-        "#e55934",
-        "#fa7921"
-      ]
-    },
-    links: {
-      color: {
-        value: "#ffffff"
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
       },
-      distance: 150,
-      opacity: 0.4
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
     },
-    move: {
-      attract: {
-        rotate: {
-          x: 600,
-          y: 1200
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
         }
       },
-      enable: true,
-      path: {
-        delay: {
-          value: 0.1
-        },
-        enable: true
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
       },
-      outModes: {
-        default: "destroy",
-        bottom: "destroy",
-        left: "destroy",
-        right: "destroy",
-        top: "destroy"
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
       },
-      speed: 4,
-      trail: {
-        enable: true,
-        length: 20
-      }
-    },
-    number: {
-      value: 0
-    },
-    opacity: {
-      value: 0.5,
-      animation: {
-        speed: 1,
-        minimumValue: 0.1
-      }
-    },
-    size: {
-      random: {
-        enable: true,
-        minimumValue: 4
+      "push": {
+        "particles_nb": 4
       },
-      value: {
-        min: 4,
-        max: 7
-      },
-      animation: {
-        speed: 40,
-        minimumValue: 0.1
+      "remove": {
+        "particles_nb": 2
       }
     }
   },
-  pauseOnBlur: false,
-  
+  "retina_detect": true
 }
 
 

@@ -1,15 +1,19 @@
 import React from 'react';
+import Particles from 'react-particles-js';
 import mmdLanding from "../../images/dark/mmd-landing-min.png";
 import logo from "../../images/mmd-ico.png";
 import Footer from '../Footer/Footer';
 import Navbar2 from '../Navbar/Navbar2';
+import {particleJsConfig} from "../../config/particle-config"
 const Ambassador = () => {
     return (
             <div >
                 <header className="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header" >
               
                     <Navbar2 />
+
                     <div  className="header-banner bg-theme-dark" style={{ backgroundColor: "#111111 !important" }}>
+                    <Particles params={particleJsConfig} style={{position: "absolute"}} />
                         <div className="nk-banner">
                             <div className="banner banner-mask-fix banner-fs banner-single tc-light">
                                 <div className="banner-wrap">
