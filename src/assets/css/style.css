@@ -7,6 +7,33 @@
   margin-bottom: 9px; 
   border-radius: 43px;
 }
+
+
+.totalSupply{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  /* border: 2px solid #000000;
+  border-radius: 7px; */
+  background-color: transparent;
+  padding: 6px;
+  margin-top: 9px;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.totalSupply p{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
 #try-app:hover{
   text-decoration: none;
   color: white !important;
@@ -17,7 +44,7 @@
   justify-content: center;
   align-items: center;
 }
-front
+
 .key-notes-container .demarcator{
   background-color: #aaa;
   width: 4px;
@@ -226,10 +253,16 @@ front
 }
 
 .tri-chart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
 }
 
 .tri-chart img{
+  display: inline-block;
+  margin: 0 auto;
   height: 300px;
   width: 475px !important;
 }
@@ -552,6 +585,15 @@ front
     width: 300px;
   }
 
+  .totalSupply p{
+    font-size: 12px;
+  }
+
+  .material-icons-outlined{
+    font-size: 12px !important;
+  }
+  
+
 }
 
 @media (max-width: 387px){
@@ -577,6 +619,17 @@ front
     width: 180px;
     height: 3px;
   }
+
+  .totalSupply p{
+    font-size: 12px;
+    font-weight: 500;
+    
+  }
+
+  .material-icons-outlined{
+    font-size: 12px !important;
+  }
+  
 
 }
 
