@@ -16,7 +16,6 @@ const Footer = () => {
                                         <li className="mr-3"><a href="https://www.facebook.com/profile.php?id=100071318033104" target="_blank" rel="noopener noreferrer"><em className="social-icon fab fa-facebook-f fa-3x"></em></a></li>
                                         <li className="mr-3"><a href="https://www.instagram.com/invites/contact/?i=okihn0jmajsx&utm_content=mj3euyy" target="_blank" rel="noopener noreferrer"><em className="social-icon fab fa-instagram fa-3x"></em></a></li>
                                         <li className="mr-3"><a href="https://www.twitter.com/mastermindtoken" target="_blank" rel="noopener noreferrer"><em className="social-icon fab fa-twitter fa-3x" target="_blank" rel="noopener noreferrer"></em></a></li>
-                                        <li className="mr-3"><a href="https://www.youtube.com/channel/UCQCXCn-e3sEowtaJnewQyvQ" target="_blank" rel="noopener noreferrer"><em className="social-icon fab fa-youtube fa-3x"></em></a></li>
                                         <li className="mr-3"><a href="https://medium.com/@mastermindtoken" target="_blank" rel="noopener noreferrer"><em className="social-icon fab fa-medium-m fa-3x"></em></a></li>
                                     </ul>
                                     <div className="copyright-text copyright-text-s3 pdt-m">
